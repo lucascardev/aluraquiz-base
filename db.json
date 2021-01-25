@@ -1,7 +1,7 @@
 {
-  "bg": "https://i2.wp.com/css-tricks.com/wp-content/uploads/2017/06/css-is-awesome-scaled.jpg?resize=1536%2C1208&ssl=1",
-  "title": "Quiz CSS da Alura",
-  "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+  "bg": "https://image.freepik.com/free-photo/dentist-examining-female-patient-with-tools_107420-65429.jpg",
+  "title": "Quiz de cuidados com a higiene oral",
+  "description": "Melhore os seus conhecimentos sobre sua higiene oral",
   "questions": [
     {
       "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
@@ -31,10 +31,10 @@
   ],
   "theme": {
     "colors": {
-      "primary": "#0d47a1",
-      "secondary": "#29b6f6",
-      "mainBg": "#171B35",
-      "contrastText": "#FFFFFF",
+      "primary": "#f582ae",
+      "secondary": "#b2ff59",
+      "mainBg": "#f3d2c1",
+      "contrastText": "#271c19",
       "wrong": "#FF5722",
       "success": "#4CAF50"
     },
