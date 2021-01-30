@@ -5,24 +5,26 @@
   "questions": [
     {
       "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
-      "description": "Essa é pra aquecer",
-      "answer": 2,
+      "title": "Se eu prescisar pular um escovação, porque não devo deixar de escovar meus dentes a noite?",
+      "description": "Essa questão toda é pra aquecer",
+      "answer": 3,
       "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
+        "Produzimos muito pouca saliva a noite",
+        "Vou acordar com mau hálito pela manhã",
+        "O ambiente bucal irá ficar mais propício a cárie",
+        "Tudo acima está correto"
       ]
     },
     {
       "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
+      "title": "Qual tipo de escova devo escolher?",
       "description": "Faz tempo em haha",
       "answer": 0,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+         "Sempre a macia e de corpo pequeno",
+         "De cerdas duras e de corpo grande",
+         "De cerdas médias e de corpo grande ",
+         "De cerdas macias e de corpo grande"
       ]
     }
   ],

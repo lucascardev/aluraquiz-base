@@ -1,5 +1,6 @@
+/* eslint-disable react/react-in-jsx-scope */
 import styled from 'styled-components'
-import db from '../db.json';
+import db from '../db.json'
 import Widget from '../src/components/Widget'
 import QuizLogo from '../src/components/QuizLogo'
 import QuizBackground from '../src/components/QuizBackground'
@@ -22,9 +23,9 @@ export const QuizContainer = styled.div`
     margin: auto;
     padding: 15px;
   }
-`;
+`
 
-export default function Home() {
+export default function Home () {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
@@ -41,7 +42,6 @@ export default function Home() {
         <Widget>
           <Widget.Content>
             <h1>Quiz da prevenção</h1>
-
             <p>Vamos testar o seu conhecimento sobre prevenção em saúde bucal</p>
           </Widget.Content>
         </Widget>
@@ -49,5 +49,5 @@ export default function Home() {
       </QuizContainer>
       <GitHubCorner projectUrl="https://github.com/omariosouto" />
     </QuizBackground>
-  );
+  )
 }
