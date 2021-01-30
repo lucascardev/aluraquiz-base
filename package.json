@@ -11,7 +11,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "deploy-changes": "git checkout -b changes && git add . && git commit"
+    "deploy-changes": "git checkout changes && git add . && git commit"
   },
   "dependencies": {
     "eslint": "^7.12.1",
