@@ -11,19 +11,15 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
+    "lint": "eslint --ext .js --fix src/** && eslint --ext .js --fix pages/**",
     "deploy-changes": "git checkout changes && git add . && git commit"
   },
   "dependencies": {
-    "eslint": "^7.12.1",
-    "eslint-config-standard": "^16.0.2",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.22.0",
     "next": "latest",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
     "react-is": "^16.8.0",
+    "react-lottie": "^1.2.3",
     "styled-components": "^5.0.0"
   },
   "devDependencies": {
@@ -34,6 +30,12 @@
     "babel-plugin-styled-components": "^1.8.0",
     "commitizen": "^4.2.3",
     "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^7.12.1",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.22.0",
     "husky": "^4.3.8"
   },
   "license": "MIT",

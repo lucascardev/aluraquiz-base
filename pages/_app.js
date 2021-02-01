@@ -12,8 +12,8 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     /* New styles */
     display: flex;
+    font-family: 'Hachi Maru Pop';
     flex-direction: column;
-    font-family: 'Lato', sans-serif;
     // Deixa branco no começo
     color: ${({ theme }) => theme.colors.contrastText};
   }
@@ -35,7 +35,7 @@ export default function App ({ Component, pageProps }) {
     <>
       <Head>
       <link rel="preconnect" href="https://fonts.gstatic.com" />
-      <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&display=swap" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet" />
       </Head>
       <ThemeProvider theme={theme}>
         <GlobalStyle />
